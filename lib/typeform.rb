@@ -1,6 +1,6 @@
 require "httparty"
 require "hashie"
-Hash.send :include, Hashie::Extensions
+# Hash.send :include, Hashie::Extensions
 
 require "typeform/version"
 require "typeform/form"
